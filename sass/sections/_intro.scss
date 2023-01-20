@@ -1,0 +1,26 @@
+.intro {
+    padding: 57px 0;
+    &__wrapper {
+        position: relative;
+    }
+    &__text {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__description {
+        color: var(--color-light-gray);
+        font-size: 14px;
+        line-height: 26px;
+    }
+    &__slider {
+        width: 325px;
+        position: absolute;
+        top: -140px;
+        right: 0px;
+    }
+    .btn {
+        align-self: flex-start;
+    }
+}

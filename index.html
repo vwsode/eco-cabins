@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./sass/app.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+        <title>Eco-Cabins</title>
+    </head>
+    <body>
+        <div id="app">
+            <header class="header">
+                <div class="header__container container">
+                    <div class="header__wrapper">
+                        <div class="header__logo logo">
+                            <img src="./public/logo.png" alt="Eco-Cabins" />
+                        </div>
+                        <nav class="header__nav nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Modellen</a>
+                                </li>
+                                <li class="nav__item"><a href="#" class="nav__link">Kopen</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Huren</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Nieuws</a></li>
+                            </ul>
+                        </nav>
+                        <button class="btn btn--filled">Contact</button>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <section class="hero">
+                    <div class="hero__container container">
+                        <div class="hero__wrapper">
+                            <div class="hero__bg"></div>
+                            <div class="hero__content">
+                                <div class="hero__text">
+                                    <h3 class="hero__subtitle section__subtitle">
+                                        Duurzame tiny huisjes
+                                    </h3>
+                                    <h1 class="hero__title section__title">
+                                        Een ecologisch tiny huisje is zoveel mogelijk opgebouwd uit
+                                        duurzame natuurlijke materialen
+                                    </h1>
+                                </div>
+                                <button class="hero__btn-play">
+                                    <svg
+                                        width="52"
+                                        height="32"
+                                        viewBox="0 0 52 32"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <g filter="url(#filter0_d_0_27)">
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z"
+                                                fill="white"
+                                            />
+                                        </g>
+                                        <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M19 16.5L14 20V13L19 16.5Z"
+                                            fill="#222F33"
+                                            stroke="#222F33"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                        <defs>
+                                            <filter
+                                                id="filter0_d_0_27"
+                                                x="-20"
+                                                y="-18"
+                                                width="72"
+                                                height="72"
+                                                filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB"
+                                            >
+                                                <feFlood
+                                                    flood-opacity="0"
+                                                    result="BackgroundImageFix"
+                                                />
+                                                <feColorMatrix
+                                                    in="SourceAlpha"
+                                                    type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                    result="hardAlpha"
+                                                />
+                                                <feOffset dy="2" />
+                                                <feGaussianBlur stdDeviation="10" />
+                                                <feColorMatrix
+                                                    type="matrix"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
+                                                />
+                                                <feBlend
+                                                    mode="normal"
+                                                    in2="BackgroundImageFix"
+                                                    result="effect1_dropShadow_0_27"
+                                                />
+                                                <feBlend
+                                                    mode="normal"
+                                                    in="SourceGraphic"
+                                                    in2="effect1_dropShadow_0_27"
+                                                    result="shape"
+                                                />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                    Bekijk de film
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="intro">
+                    <div class="intro__container container">
+                        <div class="intro__wrapper">
+                            <div class="intro__text">
+                                <h2 class="intro__title section__title">Duurzame materialen</h2>
+                                <p class="intro__description">
+                                    Alle EcoCabins hebben een hoge isolatiewaarde, worden
+                                    geproduceerd met indien mogelijk duurzame en/of natuurlijke
+                                    materialen en hebben als opvallende uiterlijke kenmerk de ‘ronde
+                                    hoeken’, mogelijk gemaakt door het specifieke materiaalgebruik.
+                                    De voordelen van bouwen met hout zijn legio: hout is licht,
+                                    flexibel, isoleert goed en bouwt snel en efficiënt.
+                                </p>
+                                <button class="btn btn--rounded">Lees meer</button>
+                            </div>
+                            <div class="intro__slider">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./public/intro-slider-1.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about">
+                    <div class="about__container container">
+                        <div class="about__wrapper">
+                            <h2 class="about__title section__title">Innovatie</h2>
+                            <div class="about__text">
+                                <p>
+                                    Wij hebben als doel om de EcoCabins voortdurend verder te
+                                    ontwikkelen en innoveren, zodat de EcoCabins uiteindelijk 100%
+                                    duurzaam en circulair zijn. Voorwaarde hierbij is dat de
+                                    EcoCabins betaalbaar blijven. Met behulp van de zon, de wind en
+                                    de beste isolatie geniet u van.
+                                </p>
+                                <p>
+                                    Alle EcoCabins hebben een hoge isolatiewaarde, worden
+                                    geproduceerd met indien mogelijk duurzame en/of natuurlijke
+                                    materialen en hebben als opvallende uiterlijke kenmerk de ‘ronde
+                                    hoeken’, mogelijk gemaakt door het specifieke materiaalgebruik
+                                    De voordelen van bouwen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="usp">
+                    <div class="usp__container container">
+                        <div class="usp__wrapper">
+                            <img src="./public/usp-img.jpg" alt="USP image" class="usp__img" />
+                            <ul class="usp__list">
+                                <li class="usp__item">
+                                    <div class="usp__item-title">Hout</div>
+                                    <div class="usp__item-descirption">
+                                        De draagconstructies van EcoCabins bestaan uit hout. Hout is
+                                        duurzaam en.
+                                    </div>
+                                </li>
+                                <li class="usp__item">
+                                    <div class="usp__item-title">Afwerking</div>
+                                    <div class="usp__item-descirption">
+                                        De draagconstructies van EcoCabins bestaan uit hout. Hout is
+                                        duurzaam en.
+                                    </div>
+                                </li>
+                                <li class="usp__item">
+                                    <div class="usp__item-title">Stalen onderstel</div>
+                                    <div class="usp__item-descirption">
+                                        Het stalen onderstel is sterk zijn en heeft de benodigde
+                                        stijfheid die
+                                    </div>
+                                </li>
+                                <li class="usp__item">
+                                    <div class="usp__item-title">Glaswol isolatie</div>
+                                    <div class="usp__item-descirption">
+                                        De combinatie van glaswol met een houtskelet constructie
+                                        geeft een.
+                                    </div>
+                                </li>
+                                <li class="usp__item">
+                                    <div class="usp__item-title">Triple glas</div>
+                                    <div class="usp__item-descirption">
+                                        De combinatie van glaswol met een houtskelet constructie
+                                        geeft een.
+                                    </div>
+                                </li>
+                                <li class="usp__item">
+                                    <div class="usp__item-title">Infrarood vloer</div>
+                                    <div class="usp__item-descirption">
+                                        De vloer wordt opgewarmd middels opgewekte warmte uit eigen
+                                        zonne-energie.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer__container container">
+                    <div class="footer__wrapper">
+                        <a class="footer__mail" href="mailto:#">info@eco-cabins.com</a>
+                        <div class="footer__logo logo">
+                            <img src="./public/logo.png" alt="Eco-Cabins" />
+                        </div>
+                        <div class="footer__privacy">
+                            <a href="#">Cookies</a>
+                            <a href="#">Privacybeleid</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>

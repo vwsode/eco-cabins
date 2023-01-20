@@ -1,0 +1,36 @@
+.usp {
+    padding: 85px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__img {
+    }
+
+    &__list {
+        height: 100%;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 37px;
+        column-gap: 60px;
+    }
+
+    &__item {
+        max-width: 155px;
+        &-title {
+            margin-bottom: 4px;
+            font-size: 18px;
+            color: var(--color-dark-green);
+            font-weight: var(--fw-black);
+            font-family: var(--ff-Merriweather);
+        }
+
+        &-descirption {
+            font-size: 12px;
+            color: var(--color-light-gray);
+        }
+    }
+}

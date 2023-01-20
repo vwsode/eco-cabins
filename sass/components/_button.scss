@@ -1,0 +1,18 @@
+.btn {
+    outline: none;
+    cursor: pointer;
+
+    font-family: inherit;
+
+    color: var(--color-light-gray);
+    border-radius: var(--rounded-sm);
+    padding: 10px 21px;
+
+    &--filled {
+        background-color: var(--color-white);
+        border: none;
+    }
+    &--rounded {
+        border: 1px solid var(--color-light-gray);
+    }
+}

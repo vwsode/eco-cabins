@@ -1,0 +1,8 @@
+.header {
+    margin-top: 35px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

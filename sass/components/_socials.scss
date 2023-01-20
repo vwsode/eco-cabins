@@ -1,0 +1,9 @@
+.socials {
+    display: flex;
+    gap: 70px;
+    &__link {
+        font-size: 10px;
+        color: var(--color-white);
+        text-decoration: none;
+    }
+}
